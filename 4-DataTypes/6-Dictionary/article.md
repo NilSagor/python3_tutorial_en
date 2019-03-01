@@ -2,6 +2,22 @@ What is Dictionary?
 
 How to create?
 
+Each element in a dictionary is represented by a key:value pair
+key must be of immutable(string, number or tuple) and must be unique.
+value can be of any data type and repeat
+
+	# empty dictionary
+	my_dict={}
+	
+	# with integer key
+	my_dict = {1:'pen', 2:'pencil'}
+
+	# with mixed keys 
+	my_dict = {'name' : 'John', 2:[1,2,3]}
+
+
+In python, dictionary creates with
+
 How to access elements from a dictionary?
 
 How to change or add elements in dictionary?
@@ -12,6 +28,7 @@ Dictionary comprehensionn:
 
 Membership test
 
+To determine whetehr a key is in a dictionary, we use in and not in
 Membership test only for keys, not for values
 
 	#initiate a Dictionary variable
@@ -19,6 +36,9 @@ Membership test only for keys, not for values
 
 	#output: True
 	print(1 in squares)
+
+	# output: True
+	print(6 not in squares)
 
 	#output: False
 	print(4 in squares)
