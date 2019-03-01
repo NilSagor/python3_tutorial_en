@@ -12,6 +12,20 @@ Dictionary comprehensionn:
 
 Membership test
 
+Membership test only for keys, not for values
+
+	#initiate a Dictionary variable
+	squares = {1:1, 2:4, 3:9, 5:25, 7:49, 9:81}
+
+	#output: True
+	print(1 in squares)
+
+	#output: False
+	print(4 in squares)
+
+	# membership test only for keys, not for value
+	# output: False
+	print(49 in squares)
 Iterating a dictionary
 
 Interationg though a nested dictionary
