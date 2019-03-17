@@ -20,3 +20,8 @@ integer i can be positive, negative or zero
 
 N = b(i)q(i).....b3q3 + b2q2 + b1q1 + b0q0+b(-1)q(-1)+b(-2)q(-2)+... etc
 
+Decimal Numbering System:
+
+Each integer number column has values of units 10, 100, 1000 etc and move along the number from right to left.
+
+Mathmatically the number written as 

@@ -1,1 +1,0 @@
-looping_technique.md
