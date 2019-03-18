@@ -95,5 +95,39 @@ Converting fraction integer to decimal
 		 (0 + 0.75) x 1/2 = 0.375
 		 (1 + 0.375) x 1/2 = 0.6875
 
-		 
+
+
+Operations  with bits are used in Data compression (Data is compresses by converting it from one representation to another, to reduce the space). Exclusive or Encryption (an algorithm to encrypt the data for safety issues). In order to encode, decode or compress files we have to extract the data at bit  level. 
+
+Bitwise Operations are faster and close to the system and sometimes optimize the program to a good level.
+
+Bitwise oprators:
+
+there are different bitwise operations used in the bit manipulation. these bit operations operate on the individual bits of the bit patterns. Bit operations are fast and can be used in optimizing time complexity. Some common bit operators are:
+
+NOT(~): Bitwise NOT(~) is an unary operator that flips the bits of the number i.e. if the ith bit is 0. it will change it to 1 and vice versa. Bitwise Not is nothing but simply the one's complement of a number. Lets take an example.
+
+		N = 5 (101)2
+		~N = ~5 = ~(101)2 = (010)2
+
+AND(&): Bitwise AND is a binary operator that operates on two equal length bit patterns. if both bits in the compared position of the bit patterns are 1, the bit in the resulting bit pattern is 1, otherwise 0
+
+		A = 5 = (101)2
+		B = 3 = (011)2
+
+		A & B = (101)2 & (011)2 = (001)2 = 1
+
+
+
+OR(|): Bitwise OR is also a binary operator that operates on two equal length bit patterns, similar to bitwise AND. if both bits in the compared position of the bit patterns are 0, the bit in the resulting bit pattern is 0, otherwise 1.
+
+		A = 5 = (101)2, B = 3 = (011)2   
+		A | B = (101)2 | (011)2 = (111)2 = 7
+
+XOR(^): Bitwise XOR also takes two equal length bit patterns. if both in the compared position of the bit patterns are 0 or 1, the bit in the resulting bit pattern is 0, otherwise 1
+
+		A = 5 = (101)2, B = 3 = (011)2
+		A^B = (101)2 ^ (011)2 = (110)2
+
+
 
