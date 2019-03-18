@@ -31,9 +31,13 @@ Mathmatically the number written as
 Converting integer into binary
 
 --- Start with the integer in question
+
 --- Divide it by 2
+
 --- Notice of the quotient and remainder
+
 --- Conitnue dividing the quotient by 2 until get quotient of zero
+
 --- then just write out the ramainders in the reverse order
 
 	12 / 2 = 6 + 0
@@ -46,7 +50,9 @@ Converting integer into binary
 Converting Decimal fraction into binary
 
 --- Start with the fraction in question
+
 --- Multyply by 2 until get a resulting fractional part to 0
+
 --- then just write out the integer parts from the results of each multiplication
 		
 		0.375 x 2 = 0 + 0.75
@@ -58,7 +64,36 @@ Converting Decimal fraction into binary
 Converting binary integer to decimal
 
 --- Start from the left
+
 --- Take the current total
+
 --- multiply it by 2 and add the current digit
+
 --- Continue until there are no more digits left
-  
+
+		1011 
+      left digits  current digits x 2
+		1 			+ 0 x 2 			= 1
+		0 			+ 1 x 2 			= 2
+		1 			+ 2 x 2 			= 5
+		1 			+ 5 x 2 			= 11 
+
+		1011(2) =======> 11(10)
+
+
+Converting fraction integer to decimal
+
+--- Start from the right with the total of 0
+--- take current total, add current digit and divide the result by 2 [replace divide by 1/2 multiplication] 
+--- continue until there are no more digits left
+
+
+		0.1011(2) =====> 
+
+		 (1 + 0) x 1/2 = 0.5
+		 (1 + 0.5) x 1/2 = 0.75
+		 (0 + 0.75) x 1/2 = 0.375
+		 (1 + 0.375) x 1/2 = 0.6875
+
+		 
+
