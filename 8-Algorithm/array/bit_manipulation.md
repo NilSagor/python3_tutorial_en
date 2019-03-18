@@ -25,3 +25,40 @@ Decimal Numbering System:
 Each integer number column has values of units 10, 100, 1000 etc and move along the number from right to left.
 
 Mathmatically the number written as 
+
+
+
+Converting integer into binary
+
+--- Start with the integer in question
+--- Divide it by 2
+--- Notice of the quotient and remainder
+--- Conitnue dividing the quotient by 2 until get quotient of zero
+--- then just write out the ramainders in the reverse order
+
+	12 / 2 = 6 + 0
+	6 / 2  = 3 + 0
+	3 / 2  = 1 + 1
+	1 / 2  = 0 + 1
+
+12(10) ====> 1100(2)
+
+Converting Decimal fraction into binary
+
+--- Start with the fraction in question
+--- Multyply by 2 until get a resulting fractional part to 0
+--- then just write out the integer parts from the results of each multiplication
+		
+		0.375 x 2 = 0 + 0.75
+		0.75 x 2 = 1 + 0.5
+		0.5 x 2 = 1 + 0
+		0. 375(10) ======> 0.011(2)
+
+
+Converting binary integer to decimal
+
+--- Start from the left
+--- Take the current total
+--- multiply it by 2 and add the current digit
+--- Continue until there are no more digits left
+  
