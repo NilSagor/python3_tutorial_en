@@ -39,3 +39,42 @@ For example
 
 output: 10 20 30 40 
 
+Typecode: 
+
+b  - signed integer
+
+B - unsigned integer
+
+c - character
+
+i - signed integer
+
+I - unsigned integer
+
+f - floating point of size 4 bytes
+
+d - floating of size 8 size 8 byts
+
+
+
+Accessing Array Element:
+
+we can access each element of an array using the index of the element.
+
+	from array import *
+
+	arrayName = array('i', [10, 20, 30, 40, 40])
+
+	print(arrayName[0])
+
+	print(arrayName[2])
+
+	print(arrayName[3])
+
+output: 
+10
+30
+40
+
+
+
