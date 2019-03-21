@@ -73,8 +73,33 @@ we can access each element of an array using the index of the element.
 
 output: 
 10
+
 30
+
 40
+
+How to remove/delete element 
+
+we can delete one or more items from an array using del statement
+
+	from array import *
+
+	arr = array('i', [10, 20, 30, 40, 50])
+
+	del arr[1] # removing 10
+
+	del arr # removing entire 
+
+we can use remove() method  to remove the given item and pop() method to remove an item at the given index
+
+	from array import *
+
+	arr =  array('i', [10, 20, 30, 40])
+
+	arr.remove[10]
+
+	arr.pop[2]
+
 
 
 
