@@ -65,6 +65,10 @@ we must create a stack object and then use it. like this
 
 
 
+
+we could have chosen the implement of the stack using list where the top is at the begining instead of end. In this case previous pop and append method would no loger work and we would have to index postion 0 ( the first item in the list) explicitly using pop and insert method
+
+
 	class Stack:
 
 		def __init__(self):
