@@ -65,6 +65,35 @@ we must create a stack object and then use it. like this
 
 
 
+	class Stack:
+
+		def __init__(self):
+			 '''initialize the new empty stack(). it needs no parameters'''
+			 self.items = []
+
+		def is_empty(self):
+			''' tests to check whether the stack is empty. it needs no parameters and return a boolean value'''
+			return self.items == []
+
+		def push(self, item):
+			''' adds a new item to the top of the stack. It needs the items and returnn nothing'''
+			self.items.insert(0, item)
+
+		def pop(self):
+			''' removes the top item from the stack. it needs no parameters and returns the item '''
+			return self.item.pop(0)
+
+		def peek(self):
+			''' returns top item from the stack but does  not remove it. it needs no parameters and the stack is not modified '''
+			return self.items[len(self.items) -1]
+
+		def size(self):
+			''' returns the number of items on the stack. It needs no parameters and returns an integer'''
+			return len(self.items)
+
+
+
+
 
 
 
