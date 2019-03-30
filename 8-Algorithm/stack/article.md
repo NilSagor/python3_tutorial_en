@@ -35,4 +35,8 @@ size() returns the number of itemms on the stack. it needs no parameters and ret
 
 		def peek(self):
 			''' returns top item from the stack but does  not remove it. it needs no parameters and the stack is not modified '''
-			
+			return self.items[len(self.items) -1]
+
+		def size(self):
+			''' returns the number of items on the stack. It needs no parameters and returns an integer'''
+			return len(self.items)
