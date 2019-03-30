@@ -40,3 +40,38 @@ size() returns the number of itemms on the stack. it needs no parameters and ret
 		def size(self):
 			''' returns the number of items on the stack. It needs no parameters and returns an integer'''
 			return len(self.items)
+
+
+we must create a stack object and then use it. like this
+
+
+	s = Stack()
+	# output True
+	print(s.is_empty())
+	s.push(4)
+	s.push('dog')
+	# output 'dog'
+	print(s.peek())
+	s.push(True)
+	s.push(8.4)
+	# output 4
+	print(s.size())
+	#output 8.4
+	print(s.pop())
+	# output True
+	print(s.pop())
+
+	print(s.size())
+
+
+
+
+
+
+
+
+
+
+
+
+
